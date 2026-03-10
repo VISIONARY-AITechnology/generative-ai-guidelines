@@ -1,0 +1,15 @@
+[book]
+title = "生成AI導入ガイドライン"
+authors = ["AI推進責任者"]
+language = "ja"
+
+[output.html]
+default-theme = "light"
+additional-js = ["mermaid.min.js", "mermaid-init.js"]
+
+[preprocessor.mermaid]
+command = "mdbook-mermaid"
+
+[output.html.fold]
+enable = true
+level = 0
